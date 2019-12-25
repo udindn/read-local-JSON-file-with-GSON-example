@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+    <FrameLayout
+            android:id="@+id/fl_container_normal_landing_book_category"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:visibility="visible">
+
+        <ImageView
+                android:id="@+id/img_photo"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/film_cover"
+                android:scaleType="fitXY" />
+
+    </FrameLayout>
+
+    <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:textColor="#000"
+            android:layout_toEndOf="@id/fl_container_normal_landing_book_category"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/txt_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@id/fl_container_normal_landing_book_category" />
+
+    <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_year"
+            android:layout_marginStart="26dp"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@id/fl_container_normal_landing_book_category"
+            android:ellipsize="end"
+            android:maxLines="3" />
+
+</RelativeLayout>

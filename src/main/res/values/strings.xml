@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReadLocalJSONFile</string>
+    <string name="film_cover">film_cover</string>
+    <string name="film_list">Daftar Film</string>
+</resources>
